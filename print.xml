@@ -1,0 +1,38 @@
+<print>
+    <config>
+        <startX>50</startX>
+        <startY>0</startY>
+        <width>400</width>
+        <height>600</height>
+        <!-- serial label-with-rollback label -->
+        <paper>label</paper>    
+        <!-- left-right bottom-up right-left up-bottom -->
+        <direction>left-right</direction>
+    </config>
+    <content>
+        <rectangle x="70" y="10" width="360" height="100"/>
+        <text x="40" y="35" mini="True" bold="True" line="True">VIBRANT CARE PHARMACY INC</text>
+        <text x="40" y="65" mini="True" bold="True" line="True">Ph:(510) 638-9851 Fax:(510) 638-9852</text>
+        <text x="40" y="95" mini="True" line="True">7400 MACARTHUR BLVD OAKLAND, CA 94605</text>
+
+        <text x="30" y="140" mini="True" bold="True">Rx No.</text>
+        <text x="30" y="140" mini="True">Doctor Name</text>
+        <text x="20" y="140" mini="True" line="True">Facility Name</text>
+
+        <text x="30" y="175" mini="True" bold="True" line="True">Patient_Name</text>
+        <text x="30" y="205">Drug_Name</text>
+        <text x="30" y="205">#Quantity</text>
+        <qrcode x="30" y="205" size="3" ecc="1">www.rgprt.com</qrcode>
+
+        <text x="30" y="235" line="True">SIG in Preferred Language</text>
+        <text x="30" y="265" line="True">Caution:</text>
+        <text x="30" y="295" bold="True" line="True">HOA: 8:00 AM 10:00 PM</text>
+
+        <text x="30" y="325" mini="True">Filled Date:</text>
+        <text x="30" y="325" mini="True">Exp Date:</text>
+        <text x="30" y="325" mini="True" opposite="True" line="True">NDC: 00000000000000</text>
+        <rectangle x="70" y="380" width="360" height="100"/>
+        <text x="40" y="400" mini="True" line="True">Federal or state law prohibits transfer of this prescription to any</text>
+        <text x="40" y="460" mini="True" line="True">person other than patient for whom it was prescribed.</text>
+    </content>
+</print>
